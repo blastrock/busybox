@@ -483,7 +483,7 @@ typedef unsigned smalluint;
 # if __ANDROID_API__ < 8
 #  undef HAVE_DPRINTF
 # else
-#  define dprintf fdprintf
+//#  define dprintf fdprintf
 # endif
 # if __ANDROID_API__ < 21
 #  undef HAVE_TTYNAME_R

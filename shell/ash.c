@@ -45,6 +45,7 @@
 
 #include "busybox.h" /* for applet_names */
 #include "unicode.h"
+#include "platform.h"
 
 #include "shell_common.h"
 #if ENABLE_SH_MATH_SUPPORT
